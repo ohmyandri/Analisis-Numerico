@@ -11,7 +11,7 @@ def f(x):
 def fp(x):
     return ( -(np.exp(-x)) - 1 )
 
-def metodoNumerico(a): #a es el valor inicial
+def metodoNumericoNewtonRaphson(a): #a es el valor inicial
     #Condiciones Iniciales y valor a buscar
     x0 = 0 #En esta variable guardaremos el valor anterior digamos es la x (i - 1)
     xi = a
